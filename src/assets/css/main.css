@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'K';
+    src: url("../../assets/font/K.woff");
+}
+
+/*头部搜索样式*/
+.search-part {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-input-part .el-select {
+    width: 110px;
+}
+
+.search-input-part {
+    width: 400px;
+    margin-right: 10px;
+}
+
+.el-input-group__append, .el-input-group__prepend {
+    background-color: white;
+}
+
+/*Login.vue*/
+.login-form .el-input--prefix .el-input__inner {
+    padding-left: 40px;
+}
+
+/*上传头像相关*/
+.avatar-uploader .el-upload {
+    border: 1px dashed #C0C4CC;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+    font-size: 24px;
+    color: #C0C4CC;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.avatar {
+    object-fit: cover;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+/*商品图片*/
+.product-icon-uploader .el-upload {
+    border: 1px dashed #C0C4CC;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-icon-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+
+.product-icon-uploader-icon {
+    font-size: 24px;
+    color: #C0C4CC;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.product-icon {
+    object-fit: cover;
+    border-radius: 6px;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.el-table .el-form-item label, .detail .el-form-item label,
+.main-first .el-form-item label, .address .el-form-item label {
+    color: #909399;
+}
+
+.store-info .el-collapse-item__header {
+    color: #606266;
+}
+
+.store-info .el-collapse-item__content {
+    color: #606266;
+    padding-bottom: 12px;
+}
+
+.el-tooltip__popper {
+    max-width: 480px;
+}
+
+.store-title .el-checkbox__label, .cart-choose .el-checkbox__label {
+    padding: 0;
+}
+
+/*修改el-message-box的默认样式*/
+.el-message-box {
+    width: 400px;
+}
+
+/*wangEditor*/
+.w-e-toolbar {
+    flex-wrap: wrap;
+    background: whitesmoke !important;
+    border: 1px #e6e6e6 solid !important;
+    line-height: 28px;
+}
+
+.w-e-text-container {
+    border-left: 1px solid #e6e6e6 !important;
+    border-right: 1px solid #e6e6e6 !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+}

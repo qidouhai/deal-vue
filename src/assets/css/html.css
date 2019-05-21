@@ -1,0 +1,80 @@
+/* table 样式 */
+.wang-editor table {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.wang-editor table td, .wang-editor table th {
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 3px 5px;
+}
+
+.wang-editor table th {
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+}
+
+/* blockquote 样式 */
+.wang-editor blockquote, .w-e-text blockquote {
+    display: block;
+    border-left: 8px solid #409EFF;
+    padding: 5px 10px;
+    margin: 10px 0;
+    line-height: 1.4;
+    font-size: 100%;
+    background-color: whitesmoke;
+}
+
+/* code 样式 */
+.wang-editor code, .w-e-text code {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 3px 5px;
+    margin: 0 3px;
+}
+
+.wang-editor pre code {
+    display: block;
+}
+
+/* ul ol 样式 */
+.wang-editor ul, .wang-editor ol {
+    line-height: 1.5em;
+    margin: 0.7em 0;
+}
+
+.w-e-text ul, .w-e-text ol {
+    line-height: 1.5em;
+    margin: 0.7em 0;
+    padding-inline-start: 40px;
+}
+
+/* a 样式 */
+.wang-editor a, .w-e-text a {
+    color: #409eff;
+    text-decoration: none;
+}
+
+.wang-editor a:hover, .w-e-text a:hover {
+    color: #66b1ff;
+    cursor: pointer;
+}
+
+/* img, video 样式 */
+.wang-editor img, .wang-editor video {
+    max-width: 100%;
+}
+
+.wang-editor iframe {
+    border: none;
+}
+
+/* p 样式 */
+.wang-editor p {
+    line-height: 1.5em;
+    margin: 0.7em 0;
+}
