@@ -1,6 +1,9 @@
 module.exports = {
     devServer: {
-        proxy: 'http://localhost:8088',
+        //本地
+        // proxy: 'http://localhost:8088',
+        //服务器
+        proxy: 'http://deal.kooriookami.top'
     },
     publicPath: './'
 }
