@@ -318,7 +318,7 @@
                 this.getByProductStatus(1);
             },
             productImg(src) {
-                return '//static.deal.kooriookami.top/img/product/' + src;
+                return '//static.kooriookami.top/deal/image/product/' + src;
             },
             handleCurrentChange(page) {
                 this.page = page;
@@ -381,7 +381,7 @@
                 if (product.productIcon === null || product.productIcon === 'null') {
                     this.imageUrl = '';
                 } else {
-                    this.imageUrl = '//static.deal.kooriookami.top/img/product/' + product.productIcon;
+                    this.imageUrl = '//static.kooriookami.top/deal/image/product/' + product.productIcon;
                 }
                 document.getElementById('watch').style.display = 'none';
                 document.getElementById('operate').style.display = 'block';

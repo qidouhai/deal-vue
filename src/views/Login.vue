@@ -104,31 +104,31 @@
                 let nowTime = this.moment().format('H');
                 if (nowTime >= 1 && nowTime < 5) {
                     this.welcome = this.dawn;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_dawn.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_dawn.png)';
                 } else if (nowTime >= 5 && nowTime < 8) {
                     this.welcome = this.earlyMorning;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_early_morning.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_early_morning.png)';
                 } else if (nowTime >= 8 && nowTime < 11) {
                     this.welcome = this.morning;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_morning.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_morning.png)';
                 } else if (nowTime >= 11 && nowTime < 13) {
                     this.welcome = this.noon;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_noon.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_noon.png)';
                 } else if (nowTime >= 13 && nowTime < 17) {
                     this.welcome = this.afternoon;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_afternoon.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_afternoon.png)';
                 } else if (nowTime >= 17 && nowTime < 19) {
                     this.welcome = this.dusk;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_dusk.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_dusk.png)';
                 } else if (nowTime >= 19 && nowTime < 21) {
                     this.welcome = this.evening;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_evening.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_evening.png)';
                 } else if (nowTime >= 21 && nowTime < 23) {
                     this.welcome = this.night;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_night.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_night.png)';
                 } else {
                     this.welcome = this.midnight;
-                    document.getElementById('main').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/bg_midnight.png)';
+                    document.getElementById('main').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/bg_midnight.png)';
                 }
             },
             login(form) {

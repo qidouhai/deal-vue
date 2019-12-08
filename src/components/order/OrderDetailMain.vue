@@ -234,7 +234,7 @@
                 }
             },
             productImg(src) {
-                return '//static.deal.kooriookami.top/img/product/' + src;
+                return '//static.kooriookami.top/deal/image/product/' + src;
             },
             payOrder(orderId) {
                 let pay = this.$router.resolve({

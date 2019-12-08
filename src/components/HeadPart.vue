@@ -154,7 +154,7 @@
                 })
             },
             headImg(src) {
-                return '//static.deal.kooriookami.top/img/head/' + src;
+                return '//static.kooriookami.top/deal/image/head/' + src;
             },
             openDrawer() {
                 document.getElementById('drawer').setAttribute('class', 'drawer animated fadeInLeft');

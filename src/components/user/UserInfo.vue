@@ -115,7 +115,7 @@
                         if (!res.data.data.headIcon) {
                             this.imageUrl = '';
                         } else {
-                            this.imageUrl = '//static.deal.kooriookami.top/img/head/' + res.data.data.headIcon;
+                            this.imageUrl = '//static.kooriookami.top/deal/image/head/' + res.data.data.headIcon;
                         }
                         this.form.realname = res.data.data.realname;
                         this.form.gender = res.data.data.gender;

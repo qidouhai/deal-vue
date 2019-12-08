@@ -268,7 +268,7 @@
                 open(address.href, '');
             },
             productImg(src) {
-                return '//static.deal.kooriookami.top/img/product/' + src;
+                return '//static.kooriookami.top/deal/image/product/' + src;
             },
             watchStore(storeId) {
                 let shop = this.$router.resolve({

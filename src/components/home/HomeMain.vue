@@ -90,7 +90,7 @@
             },
             initialBackground() {
                 this.currentBackground = Math.floor(Math.random() * this.backgroundImage.length);
-                document.getElementById('bg').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/' + this.backgroundImage[this.currentBackground].img + ')';
+                document.getElementById('bg').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/' + this.backgroundImage[this.currentBackground].img + ')';
                 this.currentAuthor = this.backgroundImage[this.currentBackground].author;
             },
             lastBackground() {
@@ -101,7 +101,7 @@
                 document.getElementById('color').style.background = 'black';
                 setTimeout(() => {
                     document.getElementById('color').style.background = 'transparent';
-                    document.getElementById('bg').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/' + this.backgroundImage[this.currentBackground].img + ')';
+                    document.getElementById('bg').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/' + this.backgroundImage[this.currentBackground].img + ')';
                 }, 150);
                 this.currentAuthor = this.backgroundImage[this.currentBackground].author;
             },
@@ -113,7 +113,7 @@
                 document.getElementById('color').style.background = 'black';
                 setTimeout(() => {
                     document.getElementById('color').style.background = 'transparent';
-                    document.getElementById('bg').style.backgroundImage = 'url(//static.deal.kooriookami.top/img/system/' + this.backgroundImage[this.currentBackground].img + ')';
+                    document.getElementById('bg').style.backgroundImage = 'url(//static.kooriookami.top/deal/image/system/' + this.backgroundImage[this.currentBackground].img + ')';
                 }, 150);
                 this.currentAuthor = this.backgroundImage[this.currentBackground].author;
             },
